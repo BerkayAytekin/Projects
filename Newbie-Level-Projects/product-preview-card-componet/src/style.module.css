@@ -1,0 +1,102 @@
+.general_template {
+  width: 1440px;
+  height: 100vh;
+  margin: auto;
+  background-color: #f2ebe3;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content_template {
+  width: 600px;
+  box-sizing: border-box;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border-radius: 30px;
+}
+.photo_template {
+  box-sizing: border-box;
+  margin: 0;
+}
+.photo_template img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.product_template {
+  background-color: white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.product_header {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  font-size: large;
+}
+.product_title {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  box-sizing: border-box;
+  margin: 0;
+  font-size: xx-large;
+}
+.product_description {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin: 0;
+}
+.price_template {
+  box-sizing: border-box;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 15px;
+}
+.saled_price {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #3c8067;
+  box-sizing: border-box;
+  margin: 0;
+}
+.real_price {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  text-decoration: line-through;
+}
+.button_template {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 15px;
+  font-size: large;
+  border-radius: 10px;
+  border: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #3c8067;
+  color: white;
+  cursor: pointer;
+}
+
+.button_template:hover {
+  background-color: #0d3b2a;
+}
