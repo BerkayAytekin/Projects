@@ -1,0 +1,8 @@
+.general_template {
+  background-color: hsl(233, 47%, 7%);
+  width: 1440px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
