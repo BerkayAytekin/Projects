@@ -1,0 +1,20 @@
+.general_template {
+  background-color: hsl(185, 75%, 39%);
+  width: 1440px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.top_circle {
+  position: absolute;
+  top: -489px;
+  left: -258px;
+}
+.bottom_circle {
+  position: absolute;
+  bottom: -489px;
+  right: -258px;
+}
