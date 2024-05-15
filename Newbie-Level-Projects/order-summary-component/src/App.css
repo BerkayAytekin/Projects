@@ -1,0 +1,164 @@
+.general_template {
+  height: 100vh;
+  width: 1440px;
+  background-image: url("./order-summary-component-main/images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content_template {
+  width: 25vw;
+  height: auto;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin: 0;
+}
+.photo_template {
+  box-sizing: border-box;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+}
+.photo_template img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.definition_template {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 40px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.definition_template h1 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: x-large;
+  box-sizing: border-box;
+  margin: 0;
+  text-align: center;
+  color: hsl(223, 47%, 23%);
+}
+.definition_template p {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  box-sizing: border-box;
+  margin: 0;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+}
+.information_template {
+  box-sizing: border-box;
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 30px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: hsl(225, 100%, 98%);
+  border-radius: 20px;
+}
+.icon_price {
+  box-sizing: border-box;
+  margin: 0;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.price_template {
+  box-sizing: border-box;
+  margin: 0;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.price_template h3 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin: 0;
+  color: hsl(223, 47%, 23%);
+}
+.price_template p {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin: 0;
+  color: hsl(224, 23%, 55%);
+  font-weight: 600;
+}
+.information_template .change {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin: 0;
+  color: blue;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.payment_template {
+  box-sizing: border-box;
+  margin: 0;
+  margin-bottom: 50px;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.accept_button {
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  height: 50px;
+  width: 80%;
+  border-radius: 10px;
+  border: 0px;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.cancel_button {
+  color: hsl(224, 23%, 55%);
+  background-color: white;
+  height: 50px;
+  width: 80%;
+  border-radius: 10px;
+  border: 0px;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.accept_button:hover {
+  background-color: hsl(278, 73%, 72%);
+}
+.cancel_button:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+.information_template .change:hover {
+  color: hsl(278, 73%, 72%);
+  text-decoration: none;
+}
