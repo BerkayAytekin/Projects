@@ -32,7 +32,7 @@ npm start
 <h3>Deploy Link</h3>
 
 ```bash
-recipe-page-fm.surge.sh
+product-preview-card-component-fm.surge.sh
 ```
 
 ### `npm start`
