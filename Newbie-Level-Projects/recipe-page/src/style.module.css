@@ -1,0 +1,170 @@
+.general_template {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page_template {
+  background-color: #f0ead6;
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content_templaate {
+  background-color: white;
+  width: 735px;
+  margin-top: 125px;
+  margin-bottom: 125px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.image_template {
+  width: 655px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.praf {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.praf_description {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.header_template {
+  width: 655px;
+}
+
+.preparation_template {
+  background-color: #fff6f5;
+  width: 655px;
+  padding: 25;
+  border-radius: 10px;
+}
+
+.preparation_header {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  color: #872657;
+}
+
+.preparation_template h2 {
+  margin-left: 5%;
+}
+
+.preparation_template ul {
+  margin-left: 3%;
+}
+
+.preparation_template ul li {
+  line-height: 250%;
+  padding-left: 4%;
+}
+
+.preparation_template ul li::marker {
+  color: #872657;
+}
+
+.ingredients_template {
+  width: 655px;
+}
+
+.ingredients_template h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  color: #82493c;
+}
+
+.ingredients_template ul {
+  margin-left: 0;
+  padding-left: 20px;
+}
+.ingredients_template ul li {
+  line-height: 250%;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  padding-left: 4%;
+}
+
+.ingredients_template ul li::marker {
+  color: #82493c;
+}
+
+.divider {
+  width: 655px;
+  color: grey;
+}
+
+.instuctions_template {
+  width: 655px;
+}
+
+.instuctions_template h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  color: #82493c;
+}
+
+.instuctions_template ol {
+  margin-left: 0;
+  padding-left: 20px;
+}
+
+.instuctions_template ol li {
+  line-height: 150%;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  padding-left: 4%;
+}
+
+.instuctions_template ol li::marker {
+  color: #82493c;
+  font-weight: 500;
+}
+
+.nutrition_template {
+  width: 655px;
+}
+
+.nutrition_template h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  color: #82493c;
+}
+
+.nutrition_template p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.nutrition_template table tbody tr {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  column-gap: 50px;
+}
+
+.table_header {
+  margin-left: 50px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 200;
+}
+
+.table_value {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  color: #82493c;
+}
