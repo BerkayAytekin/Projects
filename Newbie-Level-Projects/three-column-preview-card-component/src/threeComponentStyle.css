@@ -1,0 +1,77 @@
+.container {
+  width: 50vw;
+  height: auto;
+  background-color: black;
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  div {
+    padding: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    img {
+      margin-bottom: 30px;
+    }
+    h2 {
+      color: hsl(0, 0%, 95%);
+      font-family: "Big Shoulders Display", sans-serif;
+      font-weight: 700;
+      font-size: 40px;
+      box-sizing: border-box;
+      margin: 0;
+      margin-bottom: 30px;
+    }
+    p {
+      color: hsla(0, 0%, 100%, 0.55);
+      font-family: "Lexend Deca", sans-serif;
+      font-weight: 400;
+      font-size: 15px;
+      box-sizing: border-box;
+      margin: 0;
+      line-height: 25px;
+      margin-bottom: 30px;
+    }
+    button {
+      background-color: white;
+      border: none;
+      box-sizing: border-box;
+      margin: 0;
+      margin-top: 40px;
+      padding: 0;
+      width: 130px;
+      height: 45px;
+      border-radius: 45px;
+      font-family: "Lexend Deca", sans-serif;
+      font-weight: 400;
+      cursor: pointer;
+      border: 2px solid white;
+      &:hover {
+        background-color: transparent;
+        color: hsla(0, 0%, 100%, 0.55);
+      }
+    }
+  }
+  .sedans {
+    flex: 1;
+    background-color: hsl(31, 77%, 52%);
+    button {
+      color: hsl(31, 77%, 52%);
+    }
+  }
+  .suvs {
+    flex: 1;
+    background-color: hsl(184, 100%, 22%);
+    button {
+      color: hsl(184, 100%, 22%);
+    }
+  }
+  .luxury {
+    flex: 1;
+    background-color: hsl(179, 100%, 13%);
+    button {
+      color: hsl(179, 100%, 13%);
+    }
+  }
+}
